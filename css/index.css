@@ -1,0 +1,34 @@
+body{
+    background-image: url("../images/backrgound/minimalism-mountains-red-2048x1152.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+ul.side-nav{
+    width: 4%;
+}
+div#login{
+    margin-top:15%;
+}
+ul{
+    opacity: 0.5;
+}
+li{
+    padding-top: 20px;
+    margin-left: -18px;
+    z-index: 100000;
+}
+li a:hover{
+    background-color: indigo;
+    z-index: 20000;
+}
+li.active{
+    /*color: indigo;*/
+    background-color: indigo;
+}
+a i{
+    padding-top: 20px;
+}
+button.big-btn{
+    width: 100%;
+}
